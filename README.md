@@ -249,3 +249,4 @@ curl -X POST http://localhost:8000/edges -H "Content-Type: application/json" -d 
 curl -X POST http://localhost:8000/routes/shortest -H "Content-Type: application/json" -d '{"source":"ServerA","destination":"ServerC"}'
 # -> {"total_latency": 15.0, "path": ["ServerA", "ServerB", "ServerC"]}
 ```
+# legality-test
